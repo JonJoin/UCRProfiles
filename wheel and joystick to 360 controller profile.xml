@@ -1,0 +1,587 @@
+<Profile Title="vJoy -&gt; virtual X360 Controller" Guid="99c770b6-34b3-43b1-8a90-9176a5422dc5">
+      <ChildProfiles>
+        <Profile Title="ACTIVATE/MAPME (Wheel+Joystick -&gt; vJoy)" Guid="de02254d-a4f2-4181-beb9-e17c4632060c">
+          <ChildProfiles />
+          <Mappings>
+            <Mapping Title="Wingman3D Y -&gt; vJoy Z (Cross/A Button) (Handbrake)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="6b37a371-5b83-4d54-9274-410c6e6780ef" KeyType="0" KeyValue="4" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="AxisToAxis">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="2" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                  <Linear>false</Linear>
+                  <DeadZone>0</DeadZone>
+                  <AntiDeadZone>0</AntiDeadZone>
+                  <Sensitivity>100</Sensitivity>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy1 (Cross/A Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="48" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="0" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy2 (Square/X Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="49" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="1" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy3 (Circle/B Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="50" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="2" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy4(Triangle/Y Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="51" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="3" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy7 (R1/RB)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="54" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="6" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy8 (L1/LB)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="55" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="7" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy9 (Share/Start Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="56" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="8" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy10 (Option/Back Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="57" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="9" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy11 (R3/Right Stick Click)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="58" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="10" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy12 (L3/Left Stick Click)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="59" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="11" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy13 (D-Pad Down)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="2" KeyValue="0" KeySubValue="2" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="12" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy14 (D-Pad Up)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="2" KeyValue="0" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="13" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy15 (D-Pad Left)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="2" KeyValue="0" KeySubValue="3" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="14" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy16 (D-Pad Right)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="2" KeyValue="0" KeySubValue="1" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="15" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoy25 (PS Button)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="72" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToButton">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="1" KeyValue="24" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoyX (LS X Axis)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="0" KeyValue="0" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="AxisToAxis">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="0" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                  <Linear>false</Linear>
+                  <DeadZone>0</DeadZone>
+                  <AntiDeadZone>0</AntiDeadZone>
+                  <Sensitivity>100</Sensitivity>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoyY (R2/Right Trigger)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="0" KeyValue="4" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="AxisToAxis">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="1" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                  <Linear>false</Linear>
+                  <DeadZone>0</DeadZone>
+                  <AntiDeadZone>0</AntiDeadZone>
+                  <Sensitivity>100</Sensitivity>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="To vJoyRZ (L2/Left Trigger)">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="0" KeyValue="20" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="AxisToAxis">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="5" KeySubValue="0" />
+                  </Outputs>
+                  <Filters />
+                  <Invert>false</Invert>
+                  <Linear>false</Linear>
+                  <DeadZone>0</DeadZone>
+                  <AntiDeadZone>0</AntiDeadZone>
+                  <Sensitivity>100</Sensitivity>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+          </Mappings>
+          <InputDeviceConfigurations>
+            <DeviceConfiguration Guid="6b37a371-5b83-4d54-9274-410c6e6780ef">
+              <Device Title="WingMan Strike Force 3D" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_046D&amp;PID_C285" DeviceNumber="0" />
+              <ShadowDevices />
+            </DeviceConfiguration>
+            <DeviceConfiguration Guid="30eb1b58-48c8-4506-b10f-490ac69f46fa">
+              <Device Title="Logitech G HUB G29 Driving Force Racing Wheel USB" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_046D&amp;PID_C24F" DeviceNumber="0" />
+              <ShadowDevices />
+            </DeviceConfiguration>
+          </InputDeviceConfigurations>
+          <OutputDeviceConfigurations>
+            <DeviceConfiguration Guid="8be85940-d638-4fba-a1b0-4467ef11073f">
+              <Device Title="vJoy Stick 1" ProviderName="Core_vJoyInterfaceWrap" DeviceHandle="0" DeviceNumber="0" />
+              <ShadowDevices />
+            </DeviceConfiguration>
+          </OutputDeviceConfigurations>
+        </Profile>
+      </ChildProfiles>
+      <Mappings>
+        <Mapping Title="D-Pad Down">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="60" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="2" KeyValue="2" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="D-Pad Up">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="61" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="2" KeyValue="0" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="D-Pad Left">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="62" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="2" KeyValue="3" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="D-Pad Right">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="63" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="2" KeyValue="1" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 1 -&gt; A Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="48" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="0" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 2 -&gt; X Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="49" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="2" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 4 -&gt; Y Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="51" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="3" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 3 -&gt; B Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="50" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="1" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 12 -&gt; LS (Click)">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="59" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="6" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 11 -&gt; RS (Click)">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="58" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="7" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 9 -&gt; Start Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="56" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="9" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 10 -&gt; Back Button">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="57" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="8" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 8 -&gt; Left Bumper (LB)">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="55" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="4" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy Axis Y -&gt; Right Trigger">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="0" KeyValue="4" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="AxisToAxis">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="0" KeyValue="5" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>true</Invert>
+              <Linear>false</Linear>
+              <DeadZone>5</DeadZone>
+              <AntiDeadZone>0</AntiDeadZone>
+              <Sensitivity>100</Sensitivity>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy Axis RZ-&gt; Left Trigger">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="0" KeyValue="20" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="AxisToAxis">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="0" KeyValue="4" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>true</Invert>
+              <Linear>false</Linear>
+              <DeadZone>5</DeadZone>
+              <AntiDeadZone>0</AntiDeadZone>
+              <Sensitivity>100</Sensitivity>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy Axis X-&gt; Left Stick X Axis">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="0" KeyValue="0" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="AxisToAxis">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="0" KeyValue="0" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+              <Linear>false</Linear>
+              <DeadZone>0</DeadZone>
+              <AntiDeadZone>0</AntiDeadZone>
+              <Sensitivity>100</Sensitivity>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy 7-&gt; Right Bumper (RB)">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="1" KeyValue="54" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695" KeyType="1" KeyValue="5" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="vJoy High Axis Z -&gt; A Button (Handbrake)">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968" KeyType="0" KeyValue="8" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="AxisToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="7dc586f9-8285-473b-810b-fed3528e74fd" KeyType="1" KeyValue="0" KeySubValue="0" />
+                <DeviceBinding IsBound="false" DeviceConfigurationGuid="00000000-0000-0000-0000-000000000000" KeyType="0" KeyValue="0" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+              <DeadZone>30</DeadZone>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+      </Mappings>
+      <InputDeviceConfigurations>
+        <DeviceConfiguration Guid="cb6fccdb-6fd8-4ee9-9f4d-4ad915d7a968">
+          <Device Title="vJoy Device" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_1234&amp;PID_BEAD" DeviceNumber="0" />
+          <ShadowDevices />
+        </DeviceConfiguration>
+      </InputDeviceConfigurations>
+      <OutputDeviceConfigurations>
+        <DeviceConfiguration Guid="b8e8e0b0-e1bb-4a2e-bcb3-79ffa2c64695">
+          <Device Title="ViGEm Xbox 360 Controller 1" ProviderName="Core_ViGEm" DeviceHandle="xb360" DeviceNumber="0" />
+          <ShadowDevices />
+        </DeviceConfiguration>
+      </OutputDeviceConfigurations>
+    </Profile>
