@@ -1,0 +1,41 @@
+Real Controller Input -> vJoy Mapping -> Virtual PS4 / X360 Controller mapping (ViGEm)
+
+Controllers Used:
+Logitech G29 Steering Wheel / Pedals (No Clutch Peripheral)
+Wingman StrikeForce 3D
+
+Note: Virtual Ly (Left Stick Y), and both Virtual Rx/Ry (Right Stick X/Y) are unmapped
+
+G29 Buton 1 (Cross)-> vJoy1 -> Cross / A Button
+G29 Button 2 (Square) -> vJoy2 -> Square / X Button
+G29 Button 3 (Circle) -> vJoy3 -> Circle / B Button
+G29 Button 4 (Triangle) -> vJoy4 -> Triangle / Y Button
+N/A -> vJoy5 -> N/A
+N/A -> vJoy6 -> N/A
+G29 Button 7 (R2) -> vJoy7 -> R1 / Right Bumper (RB)
+G29 Button 8 (R1) -> vJoy8 -> L1 / Left Bumper (LB)
+G29 Button 9 (Share) -> vJoy9 -> Share / Start Button
+G29 Button 10 (Option) -> vJoy10 -> Option / Back Button
+G29 Button 11 (R3) -> vJoy11 -> R3
+G29 Button 12 (L3) -> vJoy12 -> L3
+G29 Button 13 (D-Pad Down) -> vJoy13 -> D-Pad Down
+G29 Button 14 (D-Pad Up) -> vJoy14 -> D-Pad Up
+G29 Button 15 (D-Pad Left) -> vJoy15 -> D-Pad Left
+G29 Button 16 (D-Pad Right) -> vJoy16 -> D-Pad Right
+N/A -> vJoy17 -> N/A
+N/A -> vJoy18 -> N/A
+N/A -> vJoy19 -> N/A
+N/A -> vJoy20 -> N/A
+N/A -> vJoy21 -> N/A
+N/A -> vJoy22 -> N/A
+N/A -> vJoy23 -> N/A
+N/A -> vJoy24 -> N/A
+G29 Button 25 (PS Button) vJoy25 -> PS / N/A**
+G29 Axis X (Steering Left/Right) -> vJoyX -> Lx
+G29 Axis Y (Accelerator Pedal) -> vJoyY -> R2 / Right Trigger*
+Wingman StrikeForce 3D Y -> vJoyZ -> (High) Cross / A Button, (Low) N/A***
+G29 Axis RZ (Brake Pedal) -> vJoyRZ -> L2 / Left Trigger*
+
+*For G29, the two pedals' input are inverted on transfer to ViGem since the pedal input actually starts at 100% and reduces, versus the 0% and increase action in the ViGem / PS/Xbox controller
+**ViGem as of writing doesn't support mapping to the XBox Guide button so this is left unmapped in the X360 config
+***High axis (pulling back on the stick) sends input to ViGem's Cross / A Button, low axis (pitch forward) sends nothing (30 Deadzone for wiggle room at rest, can adjust as desired).
