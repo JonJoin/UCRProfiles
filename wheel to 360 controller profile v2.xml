@@ -1,26 +1,8 @@
-<Profile Title="vJoy -&gt; virtual X360 Controller (Wheel, Joystick)" Guid="99c770b6-34b3-43b1-8a90-9176a5422dc5">
+<Profile Title="vJoy -&gt; virtual X360 Controller (Wheel Only)" Guid="efa0f05b-e632-4e82-a107-7efec4d34b96">
       <ChildProfiles>
-        <Profile Title="ACTIVATE/MAPME (Wheel+Joystick -&gt; vJoy)" Guid="de02254d-a4f2-4181-beb9-e17c4632060c">
+        <Profile Title="ACTIVATE/MAPME (Wheel -&gt; vJoy)" Guid="de02254d-a4f2-4181-beb9-e17c4632060c">
           <ChildProfiles />
           <Mappings>
-            <Mapping Title="Wingman3D Y -&gt; vJoy Z (Cross/A Button) (Handbrake)">
-              <DeviceBindings>
-                <DeviceBinding IsBound="true" DeviceConfigurationGuid="6b37a371-5b83-4d54-9274-410c6e6780ef" KeyType="0" KeyValue="4" KeySubValue="0" />
-              </DeviceBindings>
-              <Plugins>
-                <Plugin xsi:type="AxisToAxis">
-                  <Outputs>
-                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="2" KeySubValue="0" />
-                  </Outputs>
-                  <Filters />
-                  <Invert>false</Invert>
-                  <Linear>false</Linear>
-                  <DeadZone>0</DeadZone>
-                  <AntiDeadZone>0</AntiDeadZone>
-                  <Sensitivity>100</Sensitivity>
-                </Plugin>
-              </Plugins>
-            </Mapping>
             <Mapping Title="To vJoy1 (Cross/A Button)">
               <DeviceBindings>
                 <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="48" KeySubValue="0" />
@@ -287,10 +269,6 @@
             </Mapping>
           </Mappings>
           <InputDeviceConfigurations>
-            <DeviceConfiguration Guid="6b37a371-5b83-4d54-9274-410c6e6780ef">
-              <Device Title="WingMan Strike Force 3D" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_046D&amp;PID_C285" DeviceNumber="0" />
-              <ShadowDevices />
-            </DeviceConfiguration>
             <DeviceConfiguration Guid="30eb1b58-48c8-4506-b10f-490ac69f46fa">
               <Device Title="Logitech G HUB G29 Driving Force Racing Wheel USB" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_046D&amp;PID_C24F" DeviceNumber="0" />
               <ShadowDevices />

@@ -1,4 +1,4 @@
-<Profile Title="vJoy -&gt; virtual PS4 Controller" Guid="44cd6872-e16e-4293-b60b-1adc865c9c1c">
+<Profile Title="vJoy -&gt; virtual PS4 Controller (Wheel, Joystick)" Guid="44cd6872-e16e-4293-b60b-1adc865c9c1c">
       <ChildProfiles>
         <Profile Title="ACTIVATE/MAPME (Wheel+Joystick -&gt; vJoy)" Guid="de02254d-a4f2-4181-beb9-e17c4632060c">
           <ChildProfiles />
