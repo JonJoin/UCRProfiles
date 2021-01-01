@@ -240,7 +240,28 @@
                   <Outputs>
                     <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="0" KeySubValue="0" />
                   </Outputs>
-                  <Filters />
+                  <Filters>
+                    <Filter>
+                      <Name>Anti-dead zone</Name>
+                      <Negative>false</Negative>
+                    </Filter>
+                  </Filters>
+                  <Invert>false</Invert>
+                  <Linear>false</Linear>
+                  <DeadZone>0</DeadZone>
+                  <AntiDeadZone>23</AntiDeadZone>
+                  <Sensitivity>100</Sensitivity>
+                </Plugin>
+                <Plugin xsi:type="AxisToAxis">
+                  <Outputs>
+                    <DeviceBinding IsBound="true" DeviceConfigurationGuid="8be85940-d638-4fba-a1b0-4467ef11073f" KeyType="0" KeyValue="0" KeySubValue="0" />
+                  </Outputs>
+                  <Filters>
+                    <Filter>
+                      <Name>Anti-dead zone</Name>
+                      <Negative>true</Negative>
+                    </Filter>
+                  </Filters>
                   <Invert>false</Invert>
                   <Linear>false</Linear>
                   <DeadZone>0</DeadZone>
@@ -282,6 +303,20 @@
                   <DeadZone>0</DeadZone>
                   <AntiDeadZone>0</AntiDeadZone>
                   <Sensitivity>100</Sensitivity>
+                </Plugin>
+              </Plugins>
+            </Mapping>
+            <Mapping Title="Toggle Steering Anti-deadzone">
+              <DeviceBindings>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="30eb1b58-48c8-4506-b10f-490ac69f46fa" KeyType="1" KeyValue="71" KeySubValue="0" />
+              </DeviceBindings>
+              <Plugins>
+                <Plugin xsi:type="ButtonToFilter">
+                  <Outputs />
+                  <Filters />
+                  <FilterName>Anti-dead zone</FilterName>
+                  <FilterStateDown>Toggle</FilterStateDown>
+                  <FilterStateUp>Unchanged</FilterStateUp>
                 </Plugin>
               </Plugins>
             </Mapping>
@@ -550,7 +585,7 @@
               <Invert>false</Invert>
               <Linear>false</Linear>
               <DeadZone>0</DeadZone>
-              <AntiDeadZone>23</AntiDeadZone>
+              <AntiDeadZone>0</AntiDeadZone>
               <Sensitivity>100</Sensitivity>
             </Plugin>
           </Plugins>

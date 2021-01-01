@@ -29,6 +29,7 @@ N/A -> vJoy20 -> N/A
 N/A -> vJoy21 -> N/A
 N/A -> vJoy22 -> N/A
 N/A -> vJoy23 -> N/A
+G29 Button 29 (Enter Button) -> Wheel Lock****
 N/A -> vJoy24 -> N/A
 G29 Button 25 (PS Button) vJoy25 -> PS / N/A**
 G29 Axis X (Steering Left/Right) -> vJoyX -> Lx
@@ -39,3 +40,4 @@ G29 Axis RZ (Brake Pedal) -> vJoyRZ -> L2 / Left Trigger*
 *For G29, the two pedals' input are inverted on transfer to ViGem since the pedal input actually starts at 100% and reduces, versus the 0% and increase action in the ViGem / PS/Xbox controller
 **ViGem as of writing doesn't support mapping to the XBox Guide button so this is left unmapped in the X360 config
 ***High axis (pulling back on the stick) sends input to ViGem's Cross / A Button, low axis (pitch forward) sends nothing (30 Deadzone for wiggle room at rest, can adjust as desired).
+****To maintain the antideadzone but prevent flickering when swapping to M+KB, this button disables further transfer from steering to stick
