@@ -12,4 +12,10 @@ Prerequisites for "Wheel and Joystick to ... controller profiles":<br/>
 >ViGem (Output to PS4/360 Virtual Controllers) - https://github.com/ViGEm/ViGEmBus/releases/tag/setup-v1.17.333
 <br/>vJoy (Middleman/Mixer for real controllers) - http://vjoystick.sourceforge.net/site/index.php/download-a-install/download
 
-v2 - added antideadzone of 23 to Lx mapping
+v2.01 - toggleable antideadzone
+
+Added a mapping in the (default G29 "Enter" button (Button 24)) to make anti-deadzone toggleable<br/>
+In Cyberpunk 2077, when using mouse/keyboard, using the normal anti-deadzone causes the UI control hints to flicker; controls are unaffected but this is annoying.<br/>
+Pushing the mapped button engages/disengages the anti-deadzone so you can switch to mouse/keyboard when on foot, and switch it on when using a vehicle.<br/>
+
+(Technically, it is still sending to vJoy X (since otherwise it will lock to whatever value it was originally sending) from the wheel Axis X ,but w/o the anti-deadzone)
