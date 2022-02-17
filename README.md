@@ -1,6 +1,7 @@
 # UCRProfiles
-YouTube tutorial: https://youtu.be/uZGfMhlQT7o
-Written tutorial (Part One): https://garbagecorp.blogspot.com/2021/01/can-you-use-steering-wheel-in-cyberpunk_12.html
+YouTube tutorial: https://youtu.be/uZGfMhlQT7o<br/>
+Written tutorial (Part One): https://garbagecorp.blogspot.com/2021/01/can-you-use-steering-wheel-in-cyberpunk_12.html<br/>
+
 UCR Profiles you can import (using copy/paste) into your UCR context.xml file and remap to your own controllers.<br/>
 
 "Wheel and Joystick to PS4/360 Controller profiles" tested in the following games/apps:<br/>
